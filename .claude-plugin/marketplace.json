@@ -1,0 +1,16 @@
+{
+    "name":"my-claude-marketplace",
+    "owner":{
+        "name":"Ramnath"
+    },
+    "metadata":{
+        "description":"My custom Claude Code plugins"
+    },
+    "plugins":[
+        {
+            "name":"code-review",
+            "source":"./plugins/code-review",
+            "description":"Reviews code for bugs and quality issues"
+        }
+    ]
+}
